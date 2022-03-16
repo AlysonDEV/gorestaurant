@@ -8,3 +8,5 @@ Restaurant in ReactJS and TypeScript
 - cd gorestaurant/
 - yarn
 - yarn dev
+- yarn add react-router-dom
+
