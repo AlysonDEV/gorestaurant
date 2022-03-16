@@ -1,7 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
+import Way from "./routes"
 
-import Produto from "./pages/Produto"
-import Produtos from "./pages/Produtos"
 import GlobalStyle from "./style/global"
 
 function App() {
@@ -10,10 +9,7 @@ function App() {
     <>
       <GlobalStyle />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Produtos/>} />
-          <Route path="/Prod" element={<Produto />} />
-        </Routes>
+        <Way />
       </BrowserRouter>
     </>
   )
