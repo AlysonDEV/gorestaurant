@@ -1,12 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Produto from "../pages/Produto";
-import Produtos from "../pages/Produtos";
+import Dashboard from "../pages/Dashboard";
 
 function Way() {
     return (
         <Routes>
-          <Route path="/" element={<Produtos/>} />
-          <Route path="/Prod" element={<Produto />} />
+          <Route path="/" element={<Dashboard/>} />
         </Routes>
     )
 }
