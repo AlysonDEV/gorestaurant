@@ -10,3 +10,4 @@ Restaurant in ReactJS and TypeScript
 - yarn dev
 - yarn add react-router-dom
 - yarn add styled-components
+- yarn add json-server -D
